@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="beanlogin" parallel="tests" thread-count="1"
+	data-provider-thread-count="1">
+
+	<test name="GlobalTalentSearch1">
+	
+	<parameter name="email" value="anoop@mailinator.com"/>
+	<parameter name="name" value="ashish k"/>
+		<classes>
+			<class name="Tests.login_Searchglobaltalent" />
+		</classes>
+	</test>
+	<test name="GlobalTalentSearch2">
+	<parameter name="email" value="agammishra18@gmail.com"/>
+	<parameter name="name" value="Sergey"/>
+		<classes>
+			<class name="Tests.login_Searchglobaltalent" />
+		</classes>
+	</test>
+	<test name="GlobalTalentSearch3">
+	<parameter name="email" value="modi@mailinator.com"/>
+	<parameter name="name" value="Cholsu"/>
+		<classes>
+			<class name="Tests.login_Searchglobaltalent" />
+		</classes>
+	</test>
+	<test name="GlobalTalentSearch4">
+	<parameter name="email" value="demo@mailinator.com"/>
+	<parameter name="name" value="Ariette T."/>
+		<classes>
+			<class name="Tests.login_Searchglobaltalent" />
+		</classes>
+	</test>
+</suite>

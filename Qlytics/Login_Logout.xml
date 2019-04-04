@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="beanlogin" parallel="tests" thread-count="1"
+	data-provider-thread-count="1">
+
+	<test name="Login_Logout_ExistingUser1">
+	
+	<parameter name="email" value="anoop@mailinator.com"/>
+		<classes>
+			<class name="Tests.Login_Logout_ExistingUser" />
+		</classes>
+	</test>
+	<test name="Login_Logout_ExistingUser2">
+	<parameter name="email" value="agammishra18@gmail.com"/>
+		<classes>
+			<class name="Tests.Login_Logout_ExistingUser" />
+		</classes>
+	</test>
+	<test name="Login_Logout_ExistingUser3">
+	<parameter name="email" value="modi@mailinator.com"/>
+		<classes>
+			<class name="Tests.Login_Logout_ExistingUser" />
+		</classes>
+	</test>
+	<test name="Login_Logout_ExistingUser4">
+	<parameter name="email" value="demo@mailinator.com"/>
+		<classes>
+			<class name="Tests.Login_Logout_ExistingUser" />
+		</classes>
+	</test>
+</suite>

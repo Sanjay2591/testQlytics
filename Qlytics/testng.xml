@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="beanlogin" parallel="tests" thread-count="2"
+	data-provider-thread-count="1">
+
+	<test name="RegsitrationTest">
+		<classes>
+			<class name="Tests.RegistrationFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="RegsitrationTest1">
+		<classes>
+			<class name="Tests.RegistrationFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="RegsitrationTest2">
+		<classes>
+			<class name="Tests.RegistrationFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="RegsitrationTest3">
+		<classes>
+			<class name="Tests.RegistrationFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="RegsitrationTest4">
+		<classes>
+			<class name="Tests.RegistrationFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="RegsitrationTest5">
+		<classes>
+			<class name="Tests.RegistrationFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="RegsitrationTest6">
+		<classes>
+			<class name="Tests.RegistrationFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="RegsitrationTest7">
+		<classes>
+			<class name="Tests.RegistrationFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="RegsitrationTest8">
+		<classes>
+			<class name="Tests.RegistrationFunctionalityTest" />
+		</classes>
+	</test>
+</suite>
